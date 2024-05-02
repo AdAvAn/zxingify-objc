@@ -272,6 +272,14 @@
   }
 }
 
+- (void)hard_start {
+  self.hardStop = NO;
+  
+  if (!self.running) {
+    [self start];
+  }
+}
+
 - (void)order_skip {
   self.orderInSkip = 1;
   self.orderOutSkip = 1;

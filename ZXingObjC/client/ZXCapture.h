@@ -57,6 +57,7 @@
 - (CALayer *)luminance;
 - (void)setLuminance:(BOOL)on_off;
 
+- (void)hard_start;
 - (void)hard_stop;
 - (void)order_skip;
 - (void)start;
